@@ -78,7 +78,7 @@ export function ConnectionProvider({ children = undefined as any }) {
     // fetch token files
     window
       .fetch(
-        `https://raw.githubusercontent.com/solana-labs/token-list/main/src/tokens/${env}.json`
+        `https://token-logos.devhani.vercel.app/tunnelcheckVerified.json`
       )
       .then((res) => {
         return res.json();
